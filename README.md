@@ -301,5 +301,4 @@ Notes:
 ## Acknowledgements and notes
 ANSYS is a trademark of ANSYS, Inc.; this project is not affiliated with or endorsed by ANSYS. The ANSYS-generated dataset in `data/` was produced by the author's own licensed installation.
 
-## License
-Choose a licence (e.g. MIT) and add a `LICENSE` file.
+
