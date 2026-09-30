@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+
+# ANSYS scratch files (large, licence-bound, regenerable)
+ansys_work/
+ansys_test/
+*.rst
+*.esav
+*.emat
+*.full
+*.db
+*.lock
+
+# old formula-data experiment
+models_formula/
+reports_formula/
+data/ansys_60.csv
+
+.vscode/
+data/dataset.csv

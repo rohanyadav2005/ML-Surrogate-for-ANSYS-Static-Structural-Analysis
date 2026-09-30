@@ -1,0 +1,212 @@
+{
+  "max_deformation_mm": {
+    "units": "mm",
+    "best_params": {
+      "subsample": 1.0,
+      "reg_lambda": 1,
+      "n_estimators": 300,
+      "min_child_weight": 5,
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "colsample_bytree": 1.0
+    },
+    "cv5_R2_log": {
+      "mean": 0.9985071733230729,
+      "std": 0.0
+    },
+    "cv5_median_APE_pct": 3.0228913436906257,
+    "test": {
+      "MAE": 0.43448397372256864,
+      "RMSE": 2.539559429732728,
+      "R2": 0.9306347136035118,
+      "MAPE_pct": 5.832860530892833,
+      "median_APE_pct": 2.9199548906258235,
+      "p95_APE_pct": 19.73749186614211
+    },
+    "test_log10_R2": 0.9988403925635971,
+    "interval90_coverage": 0.8896551724137931,
+    "ablation_raw_features_only": {
+      "MAE": 1.0754571054031796,
+      "RMSE": 5.019175379194993,
+      "R2": 0.7290493702217881,
+      "MAPE_pct": 30.342067803018605,
+      "median_APE_pct": 21.14792699174634,
+      "p95_APE_pct": 95.12481389369273
+    }
+  },
+  "von_mises_MPa": {
+    "units": "MPa",
+    "best_params": {
+      "subsample": 0.9,
+      "reg_lambda": 0.1,
+      "n_estimators": 800,
+      "min_child_weight": 3,
+      "max_depth": 8,
+      "learning_rate": 0.1,
+      "colsample_bytree": 0.8
+    },
+    "cv5_R2_log": {
+      "mean": 0.9988223290148881,
+      "std": 0.0
+    },
+    "cv5_median_APE_pct": 2.715866937411693,
+    "test": {
+      "MAE": 8.467497345489134,
+      "RMSE": 32.821153521587874,
+      "R2": 0.99586167023051,
+      "MAPE_pct": 4.372978820845234,
+      "median_APE_pct": 2.547685631369511,
+      "p95_APE_pct": 13.5147164567722
+    },
+    "test_log10_R2": 0.9992568984664846,
+    "interval90_coverage": 0.9413793103448276,
+    "ablation_raw_features_only": {
+      "MAE": 26.250542250421258,
+      "RMSE": 75.52233448668532,
+      "R2": 0.9780886959076642,
+      "MAPE_pct": 21.896608823991045,
+      "median_APE_pct": 16.38515841145614,
+      "p95_APE_pct": 58.29548226819951
+    }
+  },
+  "max_principal_MPa": {
+    "units": "MPa",
+    "best_params": {
+      "subsample": 0.9,
+      "reg_lambda": 0.1,
+      "n_estimators": 800,
+      "min_child_weight": 3,
+      "max_depth": 8,
+      "learning_rate": 0.1,
+      "colsample_bytree": 0.8
+    },
+    "cv5_R2_log": {
+      "mean": 0.9987530648181789,
+      "std": 0.0
+    },
+    "cv5_median_APE_pct": 2.76926662187984,
+    "test": {
+      "MAE": 6.572292263765237,
+      "RMSE": 24.11722399790181,
+      "R2": 0.9950143525671876,
+      "MAPE_pct": 4.379415160445689,
+      "median_APE_pct": 2.481251752209035,
+      "p95_APE_pct": 14.275718316464673
+    },
+    "test_log10_R2": 0.9992311127646625,
+    "interval90_coverage": 0.9275862068965517,
+    "ablation_raw_features_only": {
+      "MAE": 22.74786517065794,
+      "RMSE": 70.05552513861569,
+      "R2": 0.9579320145383105,
+      "MAPE_pct": 22.28977191215738,
+      "median_APE_pct": 16.20290402344378,
+      "p95_APE_pct": 62.67716671251096
+    }
+  },
+  "factor_of_safety": {
+    "units": "-",
+    "best_params": {
+      "subsample": 1.0,
+      "reg_lambda": 1,
+      "n_estimators": 300,
+      "min_child_weight": 5,
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "colsample_bytree": 1.0
+    },
+    "cv5_R2_log": {
+      "mean": 0.9986122736250908,
+      "std": 0.0
+    },
+    "cv5_median_APE_pct": 3.9463011123044955,
+    "test": {
+      "MAE": 20.77960932990525,
+      "RMSE": 101.45262374897193,
+      "R2": 0.9985612186908124,
+      "MAPE_pct": 4.629804796592483,
+      "median_APE_pct": 3.543944307675752,
+      "p95_APE_pct": 13.658199078406643
+    },
+    "test_log10_R2": 0.9994128628781077,
+    "interval90_coverage": 0.8896551724137931,
+    "ablation_raw_features_only": {
+      "MAE": 92.05026509066364,
+      "RMSE": 330.62906940390246,
+      "R2": 0.9847190522572804,
+      "MAPE_pct": 25.487866231876495,
+      "median_APE_pct": 16.368699286403306,
+      "p95_APE_pct": 74.93430936947183
+    }
+  },
+  "by_case_MAPE_pct": {
+    "max_deformation_mm": {
+      "bending/fixed-fixed/circular": 15.36,
+      "bending/fixed-fixed/rectangular": 8.488,
+      "bending/fixed-free/circular": 8.227,
+      "bending/fixed-free/rectangular": 9.438,
+      "bending/simply-supported/circular": 8.482,
+      "bending/simply-supported/rectangular": 4.92,
+      "compressive/fixed-free/circular": 3.23,
+      "compressive/fixed-free/rectangular": 1.733,
+      "tensile/fixed-free/circular": 2.058,
+      "tensile/fixed-free/rectangular": 1.463,
+      "torsion/fixed-free/circular": 4.235,
+      "torsion/fixed-free/rectangular": 2.929
+    },
+    "von_mises_MPa": {
+      "bending/fixed-fixed/circular": 6.344,
+      "bending/fixed-fixed/rectangular": 4.228,
+      "bending/fixed-free/circular": 8.467,
+      "bending/fixed-free/rectangular": 9.33,
+      "bending/simply-supported/circular": 6.447,
+      "bending/simply-supported/rectangular": 5.95,
+      "compressive/fixed-free/circular": 1.709,
+      "compressive/fixed-free/rectangular": 0.838,
+      "tensile/fixed-free/circular": 1.8,
+      "tensile/fixed-free/rectangular": 1.311,
+      "torsion/fixed-free/circular": 3.587,
+      "torsion/fixed-free/rectangular": 4.508
+    },
+    "max_principal_MPa": {
+      "bending/fixed-fixed/circular": 6.781,
+      "bending/fixed-fixed/rectangular": 5.042,
+      "bending/fixed-free/circular": 9.414,
+      "bending/fixed-free/rectangular": 9.289,
+      "bending/simply-supported/circular": 5.472,
+      "bending/simply-supported/rectangular": 5.162,
+      "compressive/fixed-free/circular": 1.709,
+      "compressive/fixed-free/rectangular": 1.079,
+      "tensile/fixed-free/circular": 1.658,
+      "tensile/fixed-free/rectangular": 1.407,
+      "torsion/fixed-free/circular": 4.077,
+      "torsion/fixed-free/rectangular": 3.006
+    },
+    "factor_of_safety": {
+      "bending/fixed-fixed/circular": 3.86,
+      "bending/fixed-fixed/rectangular": 4.338,
+      "bending/fixed-free/circular": 7.073,
+      "bending/fixed-free/rectangular": 7.39,
+      "bending/simply-supported/circular": 6.12,
+      "bending/simply-supported/rectangular": 3.732,
+      "compressive/fixed-free/circular": 3.332,
+      "compressive/fixed-free/rectangular": 2.073,
+      "tensile/fixed-free/circular": 3.117,
+      "tensile/fixed-free/rectangular": 3.164,
+      "torsion/fixed-free/circular": 6.493,
+      "torsion/fixed-free/rectangular": 5.677
+    }
+  },
+  "physics_validation": {
+    "load_linearity_median_dev_pct": {
+      "max_deformation_mm": 2.220446049250313e-14,
+      "von_mises_MPa": 2.220446049250313e-14,
+      "max_principal_MPa": 2.220446049250313e-14,
+      "factor_of_safety": 1.1102230246251565e-14
+    },
+    "fos_consistency_median_err_pct": 4.206887979490203,
+    "vonMises_to_principal_ratio_median_err_pct": 2.06006009138171,
+    "monotonic_E_up_deflection_down_pass_rate": 0.9793103448275862,
+    "bending_BC_order_ff>ss>fixedfixed_pass_rate": 1.0
+  }
+}
